@@ -1,0 +1,4 @@
+zhangsan,12000
+lisi,14000
+wangwu,20000
+liuliu,24000
