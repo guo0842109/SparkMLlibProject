@@ -37,7 +37,7 @@ if __name__ == "__main__":
     elif len(sys.argv) == 2:
         input = sys.argv[1]
     else:
-        input = "data/mllib/sample_libsvm_data.txt"
+        input = "../data/mllib/sample_libsvm_data.txt"
 
     spark = SparkSession \
         .builder \

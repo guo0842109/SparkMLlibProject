@@ -23,7 +23,8 @@ conf = SparkConf() \
     .set("spark.executor.memory", "2g") \
     .setMaster("local[*]")
 sc = SparkContext(conf=conf)
-data = sc.textFile("F:\\2_big_data_ai\\code\\1_pyspark_dataframe\\ml\\data\\mllib\\als\\test.data")
+# data = sc.textFile("F:\\2_big_data_ai\\code\\1_pyspark_dataframe\\ml\\data\\mllib\\als\\test.data")
+data = sc.textFile("./1_pyspark_dataframe/ml/data/mllib/als/test.data")
 ratings = data.map(lambda l: l.split(','))\
     .map(lambda l: Rating(int(l[0]), int(l[1]), float(l[2])))
 

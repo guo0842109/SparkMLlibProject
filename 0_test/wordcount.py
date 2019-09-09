@@ -9,7 +9,7 @@ from pyspark import SparkContext
 logging.basicConfig(format='%(message)s', level=logging.INFO)  
  
 #import local file
-test_file_name = "0_test/README.md"  
+test_file_name = "../0_test/README.md"
 out_file_name = "result.txt"
  
 sc = SparkContext("local","wordcount app")

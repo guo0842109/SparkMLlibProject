@@ -1,10 +1,284 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22aa52dc-946f-4b91-a22e-237817e1e1ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_pyspark_dataframe/ml/my_min_max_scaler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_spark_kdd19/data/kddcup.data_10_percent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb1-rdd-creation/my_nb1_rdd_creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_test/test(1).txt" beforeDir="false" afterPath="$PROJECT_DIR$/0_test/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_test/test_pyspark.py" beforeDir="false" afterPath="$PROJECT_DIR$/0_test/ttpyspark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_test/wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/0_test/wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_pyspark_dataframe/ml/0_dataframe_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_pyspark_dataframe/ml/0_dataframe_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_classification_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_classification_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_kmeans_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_kmeans_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb3-rdd-sampling/nb3-rdd-sampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb3-rdd-sampling/nb3-rdd-sampling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_pyspark-recommendation/ALS.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_pyspark-recommendation/ALS.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$0_dataframe_example.coverage" NAME="0_dataframe_example Coverage Results" MODIFIED="1566618573761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$1_min_max_scaler_example.coverage" NAME="1_min_max_scaler_example Coverage Results" MODIFIED="1566628618853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$my_min_max_scaler.coverage" NAME="my_min_max_scaler Coverage Results" MODIFIED="1566629275270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$pyspark.coverage" NAME="pyspark Coverage Results" MODIFIED="1566626214774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0_test" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$1_pca_example.coverage" NAME="1_pca_example Coverage Results" MODIFIED="1566629531250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$3_decision_tree_classification_example.coverage" NAME="3_decision_tree_classification_example Coverage Results" MODIFIED="1566631666184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$pytest_in_test_pyspark_py.coverage" NAME="pytest in test_pyspark.py Coverage Results" MODIFIED="1566625617894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0_test" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$1_onehot_encoder_example.coverage" NAME="1_onehot_encoder_example Coverage Results" MODIFIED="1566628285533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$3_decision_tree_regression_example.coverage" NAME="3_decision_tree_regression_example Coverage Results" MODIFIED="1566631722062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$wordcount.coverage" NAME="wordcount Coverage Results" MODIFIED="1566626132815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0_test" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$1_binarizer_example.coverage" NAME="1_binarizer_example Coverage Results" MODIFIED="1566627461731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$3_kmeans_example.coverage" NAME="3_kmeans_example Coverage Results" MODIFIED="1566631507692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$0_sql_transformer.coverage" NAME="0_sql_transformer Coverage Results" MODIFIED="1566618953820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$nb3_rdd_sampling.coverage" NAME="nb3-rdd-sampling Coverage Results" MODIFIED="1566617766866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb3-rdd-sampling" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$1_normalizer_example.coverage" NAME="1_normalizer_example Coverage Results" MODIFIED="1566616081374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+    <SUITE FILE_PATH="coverage/SparkMLlibProject$ALS.coverage" NAME="ALS Coverage Results" MODIFIED="1566633625237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_pyspark-recommendation" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_classification_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_random_forest_classifier_example.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_kmeans_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb1-rdd-creation/my_nb1_rdd_creation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/文件说明">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_pyspark-recommendation/ml-1m/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="825">
+                <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_regression_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_pyspark-recommendation/ALS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_pyspark-recommendation/Movie_Recommendation_using_pyspark.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <element signature="e#64#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/0_test/wordcount.py" />
+        <option value="$PROJECT_DIR$/1_pyspark_dataframe/ml/0_dataframe_example.py" />
+        <option value="$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb1-rdd-creation/my_nb1_rdd_creation.py" />
+        <option value="$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb3-rdd-sampling/nb3-rdd-sampling.py" />
+        <option value="$PROJECT_DIR$/0_test/test_pyspark.py" />
+        <option value="$PROJECT_DIR$/1_pyspark_dataframe/ml/my_min_max_scaler.py" />
+        <option value="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_kmeans_example.py" />
+        <option value="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_classification_example.py" />
+        <option value="$PROJECT_DIR$/3_pyspark-recommendation/ALS.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="66" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="669" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="1_pyspark_dataframe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="1_pyspark_dataframe" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb1-rdd-creation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb4-rdd-set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb5-rdd-aggregations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb6-rdd-key-value" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb7-mllib-statistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb8-mllib-logit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="2_spark_kdd19" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-py-notebooks-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nb9-mllib-trees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_pyspark-recommendation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_pyspark-recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-1m" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkMLlibProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkMLlibProject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_pyspark-recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -12,6 +286,551 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_spark_kdd19/data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ALS">
+    <configuration name="1_pca_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SparkMLlibProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_pyspark_dataframe/ml/1_pca_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_decision_tree_classification_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SparkMLlibProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_classification_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_decision_tree_regression_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SparkMLlibProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_regression_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_kmeans_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SparkMLlibProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_pyspark_dataframe/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_pyspark_dataframe/ml/3_kmeans_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ALS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SparkMLlibProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_pyspark-recommendation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_pyspark-recommendation/ALS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ALS" />
+        <item itemvalue="Python.3_decision_tree_regression_example" />
+        <item itemvalue="Python.3_decision_tree_classification_example" />
+        <item itemvalue="Python.3_kmeans_example" />
+        <item itemvalue="Python.1_pca_example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22aa52dc-946f-4b91-a22e-237817e1e1ea" name="Default Changelist" comment="" />
+      <created>1566608496639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566608496639</updated>
+      <workItem from="1566608498408" duration="1470000" />
+      <workItem from="1566610549590" duration="13473000" />
+      <workItem from="1567132968328" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 09h 21m 47s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 09h 24m 23s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 09h 26m 47s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 09h 32m 00s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 09h 33m 29s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 09h 37m 46s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 13h 25m 06s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 13h 29m 32s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 13h 32m 07s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pyspark_py - 2019.08.24 at 13h 49m 19s.xml">
+      <configuration name="pytest in test_pyspark.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15107000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="23" width="1260" height="669" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25779969" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.072790295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986135" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.11438475" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32928944" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536946" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21490468" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986135" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.11438475" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32928944" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb3-rdd-sampling/nb3-rdd-sampling.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/0_test/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pyspark/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb8-mllib-logit/nb8-mllib-logit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#1004#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/1_normalizer_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#785#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb1-rdd-creation/nb1-rdd-creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="e#1169#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pyspark/rdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="417" column="44" selection-start-line="417" selection-start-column="44" selection-end-line="417" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/data/kddcup.data_10_percent">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/py4j/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="325" column="35" lean-forward="true" selection-start-line="325" selection-start-column="35" selection-end-line="325" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb3-rdd-sampling/nb3-rdd-sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="e#796#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb5-rdd-aggregations/nb5-rdd-aggregations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb6-rdd-key-value/nb6-rdd-key-value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb7-mllib-statistics/nb7-mllib-statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="95" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="95" />
+          <folding>
+            <element signature="e#1059#1091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/data/mllib/sample_libsvm_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pyspark/sql/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/0_sql_transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/0_dataframe_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_test/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_test/wordcount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb4-rdd-set/nb4-rdd-set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_test/ttpyspark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/1_binarizer_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <element signature="e#785#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/1_onehot_encoder_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/2_polynomial_expansion_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/1_min_max_scaler_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="38" column="72" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="72" />
+          <folding>
+            <element signature="e#785#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/my_min_max_scaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/1_pca_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/data/mllib/sample_kmeans_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_classification_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_random_forest_classifier_example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_kmeans_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/nb1-rdd-creation/my_nb1_rdd_creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_spark_kdd19/spark-py-notebooks-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="825">
+            <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_pyspark_dataframe/ml/3_decision_tree_regression_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_pyspark-recommendation/ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_pyspark-recommendation/Movie_Recommendation_using_pyspark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#64#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_pyspark-recommendation/ml-1m/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
